@@ -24,7 +24,7 @@ The News Threads project analyzes news articles to help find similarities betwee
 * The news_threads.conf file contains information about the config format.
 
 ## Data Format
-* Input data is a single CSV with news articles
+* Input data is a single CSV named documents.csv with news articles
 * Format is: (canonical_url, title, doc_id, domain, text, first_scrape_date)
 * You may change the format by modifying the "build_minhash" method in dbscan.py
 * Additional fields are ignored by default
