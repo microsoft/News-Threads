@@ -42,6 +42,7 @@ The News Threads project analyzes news articles to help find similarities betwee
 3. Type "python -m newsthreads" to run the news threads pipeline
 
 ## Windows
+_Note: These instructions were verified using Python 3.8 installed from the Microsoft Store_
 1. "python -m venv .env"
 2. ".env\Scripts\activate.bat"
 3. "pip3 install -r requirements.txt"
