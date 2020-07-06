@@ -61,6 +61,7 @@ def process_sentences(config: configparser.SectionProxy):
     fout2.close()
 
     fout = open(config['OutputSentenceIdLookupFileName'], 'w', encoding='utf-8')
+    fout.write("_sentence_id,_text\n")
     for ky in dict_sent:
         fout.write(str(dict_sent[ky]) + ',' + str(ky) + '\n')
     fout.close()
