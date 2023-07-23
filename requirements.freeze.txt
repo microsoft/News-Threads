@@ -8,7 +8,7 @@ mccabe==0.6.1
 more-itertools==8.2.0
 mypy-extensions==0.4.3
 mypy==0.761
-nltk==3.4.5
+nltk==3.6.6
 numpy==1.18.2
 packaging==20.3
 pandas==1.0.1
